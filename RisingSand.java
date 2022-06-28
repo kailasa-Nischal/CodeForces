@@ -80,7 +80,7 @@ public class Main{
                 for (int i = 1; i <n-1; i++) {
                     if(a[i]>a[i-1]+a[i+1])  totall++;
                 }                          
-                if(k>2) out.println(totall);
+                if(k>=2) out.println(totall);
                 else{
                     if(n%2==0)  out.println((n-2)/2);
                     else    out.println((n-1)/2);
